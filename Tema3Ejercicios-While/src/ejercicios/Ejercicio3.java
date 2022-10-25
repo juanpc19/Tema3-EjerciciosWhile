@@ -34,7 +34,9 @@ public class Ejercicio3 {
 		/*Al introducir un numero negativo finalizo el bucle e imprimo por pantalla
 		el siguiente mensaje en el que divido la suma de todos los numeros introducidos 
 		(variable sumaNumeros) entre cantidad (variable cantidad) */
-		System.out.print("La media de la suma de todos los numeros introducidos es: " + sumaNumeros/cantidad);
+		System.out.print("La media de la suma de todos los numeros introducidos es: " + (float) sumaNumeros/cantidad);
+		
+		dogma.close();
 	}
 
 }
