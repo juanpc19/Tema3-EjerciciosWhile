@@ -10,7 +10,8 @@ public class Ejercicio5 {
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.println("Introduzca un numero, el programa finalizara dandole los resultados tras introducir 10 numeros: ");		
+		System.out.println("Introduzca un numero, el programa finalizara dandole "
+			+ "los resultados tras introducir 10 numeros: ");		
 
 		while (cantidad<10) {
 			
@@ -29,7 +30,12 @@ public class Ejercicio5 {
 			++cantidad;
 			}
 		
-		System.out.print("Suma total de los numeros positivos introducidos: " + sumaPositivos  + ". Media de los numeros negativos introducidos: " + (float) sumaNegativos/cantidadNegativos + ". Cantidad de veces que ha introducido 0: " + cantidadCeros);	
+		System.out.println("Suma total de los numeros positivos introducidos: " + sumaPositivos);
+		
+		System.out.println(cantidadNegativos!=0 ? "Media de los numeros negativos "
+		+ "introducidos: " + (float) sumaNegativos/cantidadNegativos : "No ha introducido ningun numero negativo del que hacer media");
+		
+		System.out.print("Cantidad de veces que ha introducido el numero 0: " + cantidadCeros);	
 		
 		dogma.close();
 	}
