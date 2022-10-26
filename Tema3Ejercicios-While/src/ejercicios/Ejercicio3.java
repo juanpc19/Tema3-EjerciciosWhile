@@ -22,7 +22,7 @@ public class Ejercicio3 {
 			la suma de sumaNumeros y numeroIntroducido mediante Scanner
 			futuras sumas se realizaran con el nuevo valor de sumaNumeros y 
 			el nuevo valor de numeroIntroducido*/
-			sumaNumeros = sumaNumeros+numeroIntroducido;
+			sumaNumeros += numeroIntroducido;
 			
 			/*Incremento el valor de variable cantidad en +1 cada vez que introduzco un numero
 			 * por consola para despues usarla como divisor en la media*/

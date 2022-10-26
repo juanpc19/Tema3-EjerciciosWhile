@@ -18,7 +18,7 @@ public class Ejercicio6 {
 		while (edad>=0) {
 			
 		
-			sumaEdades = sumaEdades + edad;
+			sumaEdades += edad;
 			++numeroAlumnos;
 			
 			

@@ -22,7 +22,7 @@ public class Ejercicio1 {
 			la suma de sumaNumeros y numeroIntroducido mediante Scanner
 			futuras sumas se realizaran con el nuevo valor de sumaNumeros y 
 			el nuevo valor de numeroIntroducido*/
-			sumaNumeros = sumaNumeros+numeroIntroducido;
+			sumaNumeros += numeroIntroducido;
 			
 			//De introducir un numero que no cumpla la condicion (como -1) se finalizara el bucle
 			numeroIntroducido = dogma.nextInt();

@@ -18,10 +18,10 @@ public class Ejercicio5 {
 			numeroIntroducido = dogma.nextInt();
 			
 			if (numeroIntroducido>=1) {
-				sumaPositivos = sumaPositivos +numeroIntroducido;
+				sumaPositivos += numeroIntroducido;
 			
 			} else if (numeroIntroducido<=-1) {
-				sumaNegativos = sumaNegativos +numeroIntroducido;
+				sumaNegativos += numeroIntroducido;
 				++cantidadNegativos;
 				
 			} else {
