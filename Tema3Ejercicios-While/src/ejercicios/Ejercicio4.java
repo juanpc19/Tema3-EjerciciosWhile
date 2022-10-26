@@ -10,7 +10,7 @@ public class Ejercicio4 {
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca un numero, si quiere finalizar la "
+		System.out.println("Introduzca un numero, si quiere finalizar la "
 			+ "ejecucion del programa introduzca 0: ");		 
 
 		numeroIntroducido = dogma.nextInt();
@@ -18,10 +18,10 @@ public class Ejercicio4 {
 		while (numeroIntroducido !=0) {
 			
 			if (numeroIntroducido%2==0) {
-				System.out.print("El numero es par");
+				System.out.println("El numero es par");
 				
 			} else {
-				System.out.print("El numero es impar");
+				System.out.println("El numero es impar");
 			}
 			
 			numeroIntroducido = dogma.nextInt();

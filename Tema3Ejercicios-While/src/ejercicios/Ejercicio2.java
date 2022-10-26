@@ -6,11 +6,11 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		
-		int numeroIntroducido=0, cantidad=0;
+		int numeroIntroducido, cantidad=0;
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca un numero entero positivo a contar, si quiere finalizar"
+		System.out.println("Introduzca un numero entero positivo a contar, si quiere finalizar"
 				+ " la ejecucion del programa\ny obtener la cantidad total de numeros introducidos"
 				+ " introduzca un numero negativo: ");
 		
@@ -18,10 +18,12 @@ public class Ejercicio2 {
 		
 		while (numeroIntroducido>=0) {	
 			
+			++cantidad;
+			
 			numeroIntroducido = dogma.nextInt();
 			
 			//Incremento el valor de variable cantidad en +1 cada vez que introduzco un numero por consola
-			++cantidad;
+			
 			
 		}
 		

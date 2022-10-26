@@ -6,11 +6,11 @@ public class Ejercicio1 {
 
 	public static void main(String[] args) {
 
-		int numeroIntroducido=0, sumaNumeros=0;
+		int numeroIntroducido, sumaNumeros=0;
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca un numero entero positivo a sumar: si quiere finalizar la "
+		System.out.println("Introduzca un numero entero positivo a sumar: si quiere finalizar la "
 				+ "ejecucion del programa\ny obtener la suma final de numeros introducidos"
 				+ " introduzca un numero negativo: ");
 		

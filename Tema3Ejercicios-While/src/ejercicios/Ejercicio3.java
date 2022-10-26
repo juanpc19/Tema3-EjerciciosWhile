@@ -6,12 +6,12 @@ public class Ejercicio3 {
 
 	public static void main(String[] args) {
 
-		int numeroIntroducido=0, sumaNumeros=0, cantidad=0;
+		int numeroIntroducido, sumaNumeros=0, cantidad=0;
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca un numero entero positivo a sumar: si quiere finalizar la "
-			+ "ejecucion del programa\ny obtener la suma final de numeros introducidos"
+		System.out.println("Introduzca un numero entero positivo a sumar, si quiere finalizar la "
+			+ "ejecucion del programa\ny obtener la media de la suma de todos los de numeros introducidos"
 			+ " introduzca un numero negativo: ");
 		
 		numeroIntroducido = dogma.nextInt();
@@ -34,7 +34,9 @@ public class Ejercicio3 {
 		/*Al introducir un numero negativo finalizo el bucle e imprimo por pantalla
 		el siguiente mensaje en el que divido la suma de todos los numeros introducidos 
 		(variable sumaNumeros) entre cantidad (variable cantidad) */
-		System.out.print("La media de la suma de todos los numeros introducidos es: " + (float) sumaNumeros/cantidad);
+		System.out.print(cantidad!=0 ? "La media de la suma de todos los numeros introducidos es: " + (float) sumaNumeros/cantidad 
+				
+				: "Asegurese de introducir al menos un numero antes de finalizar el programa");
 		
 		dogma.close();
 	}

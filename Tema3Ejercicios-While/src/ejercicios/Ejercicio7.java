@@ -17,10 +17,10 @@ public class Ejercicio7 {
 		while ((numeroIntroducido!=numeroRandom) && (numeroIntroducido!=-1)){
 			
 		 if (numeroIntroducido>numeroRandom) {
-				System.out.print("Su numero es mayor al numero secreto");
+				System.out.println("Su numero es mayor al numero secreto");
 				
 				} else if (numeroIntroducido<numeroRandom) {
-					System.out.print("Su numero es menor al numero secreto");
+					System.out.println("Su numero es menor al numero secreto");
 					}
 			
 			numeroIntroducido = dogma.nextInt();

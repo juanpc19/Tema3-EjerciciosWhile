@@ -32,8 +32,11 @@ public class Ejercicio5 {
 		
 		System.out.println("Suma total de los numeros positivos introducidos: " + sumaPositivos);
 		
-		System.out.println(cantidadNegativos!=0 ? "Media de los numeros negativos "
-		+ "introducidos: " + (float) sumaNegativos/cantidadNegativos : "No ha introducido ningun numero negativo del que hacer media");
+		System.out.println(cantidadNegativos!=0 ?
+				
+				"Media de los numeros negativos introducidos: " + (float) sumaNegativos/cantidadNegativos 
+				
+				: "No ha introducido ningun numero negativo del que hacer media");
 		
 		System.out.print("Cantidad de veces que ha introducido el numero 0: " + cantidadCeros);	
 		

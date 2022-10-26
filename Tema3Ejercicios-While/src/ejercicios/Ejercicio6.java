@@ -6,12 +6,12 @@ public class Ejercicio6 {
 
 	public static void main(String[] args) {
 
-		int edad=0, sumaEdades = 0, numeroAlumnos = 0, alumnosMayor = 0;
+		int edad, sumaEdades = 0, numeroAlumnos = 0, alumnosMayor = 0;
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.println("Introduzca un numero, el programa finalizara dandole "
-				+ "los resultados tras introducir un numero negativo: ");		
+		System.out.println("Introduzca con numeros las edades de los alumnos, "
+			+ "el programa finalizara dandole los resultados tras introducir un numero negativo: ");		
 		
 		edad = dogma.nextInt();
 		
